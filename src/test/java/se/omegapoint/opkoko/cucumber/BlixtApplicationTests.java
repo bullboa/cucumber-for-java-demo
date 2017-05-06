@@ -1,0 +1,11 @@
+package se.omegapoint.opkoko.cucumber;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(tags = {"@canary1"})
+public class BlixtApplicationTests {
+
+}
